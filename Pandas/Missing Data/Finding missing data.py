@@ -1,0 +1,11 @@
+import numpy as np
+import pandas as pd
+
+data={'A':[1,2,np.nan,4,5],
+      'B':[1,2,3,4,5],
+      'C':[1,2,3,np.nan,np.nan],
+      'D':[1,np.nan,np.nan,np.nan,5]
+}
+df=pd.DataFrame(data)
+# print(df.isna().sum())
+print(df.isna().any())
