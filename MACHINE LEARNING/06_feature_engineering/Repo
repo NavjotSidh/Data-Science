@@ -1,0 +1,83 @@
+MACHINE-LEARNING/
+│
+├── 01_data_preprocessing/
+│   ├── handling_missing_values.py
+│   ├── handling_duplicates.py
+│   ├── handling_outliers.py
+│   ├── encoding_categorical_data.py
+│   ├── feature_scaling.py
+│   └── train_test_split.py
+│
+├── 02_exploratory_data_analysis/
+│   ├── descriptive_statistics.py
+│   ├── univariate_analysis.py
+│   ├── bivariate_analysis.py
+│   ├── correlation_analysis.py
+│   └── data_visualization.py
+│
+├── 03_supervised_learning/
+│   │
+│   ├── 01_linear_regression/
+│   │   └── linear_regression.py
+│   │
+│   ├── 02_logistic_regression/
+│   │   └── logistic_regression.py
+│   │
+│   ├── 03_knn/
+│   │   └── knn.py
+│   │
+│   ├── 04_decision_tree/
+│   │   └── decision_tree.py
+│   │
+│   ├── 05_random_forest/
+│   │   └── random_forest.py
+│   │
+│   ├── 06_svm/
+│   │   └── svm.py
+│   │
+│   ├── 07_naive_bayes/
+│   │   └── naive_bayes.py
+│   │
+│   ├── 08_gradient_boosting/
+│   │   └── gradient_boosting.py
+│   │
+│   └── 09_xgboost/
+│       └── xgboost_model.py
+│
+├── 04_unsupervised_learning/
+│   ├── kmeans_clustering.py
+│   ├── hierarchical_clustering.py
+│   └── pca.py
+│
+├── 05_model_evaluation/
+│   ├── regression_metrics.py
+│   ├── classification_metrics.py
+│   ├── confusion_matrix.py
+│   ├── cross_validation.py
+│   └── hyperparameter_tuning.py
+│
+├── 06_feature_engineering/
+│   ├── feature_creation.py
+│   └── pipelines.py
+│
+├── 07_statistics/
+│   ├── descriptive_statistics.py
+│   ├── hypothesis_testing.py
+│   └── correlation_tests.py
+│
+├── 08_projects/
+│   ├── house_price_prediction/
+│   │   ├── main.py
+│   │   ├── README.md
+│   │   └── requirements.txt
+│   │
+│   └── student_dropout_prediction/
+│       ├── main.py
+│       └── README.md
+│
+├── datasets/
+│   └── README.md
+│
+├── requirements.txt
+├── .gitignore
+└── README.md
